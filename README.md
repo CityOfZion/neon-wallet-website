@@ -16,4 +16,4 @@ This application is built to automatically track against https://api.github.com/
 ## Deployment
 `npm run build` will compile a production bundle and output to `/build`
 
-`npm run deploy` will push a production bundle to the `gh-pages` branch of this application which will then automatically deploy to http://neonwallet.com/.
+`npm run deploy` will push a production bundle to the `gh-pages` branch of this application which update http://neonwallet.com/.
