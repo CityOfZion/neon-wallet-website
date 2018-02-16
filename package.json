@@ -1,6 +1,6 @@
 {
   "name": "neon-website",
-  "homepage": "https://CityOfZion.github.io/neon-wallet-website",
+  "homepage": "https://CityOfZion.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
