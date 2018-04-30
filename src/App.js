@@ -19,35 +19,12 @@ class App extends Component {
     rp("https://api.github.com/repos/CityOfZion/neon-wallet/releases/latest")
       .then(response => {
         const parsed = JSON.parse(response);
-        const updated = [];
-        downloadOptions.forEach(option => {
-          switch (option.id) {
-            case "WINDOWS":
-              option.href = parsed.assets.find(
-                asset => asset.name.split(".").lastIndexOf("exe") > 0
-              ).browser_download_url;
-              break;
-            case "MAC_OS":
-              option.href = parsed.assets.find(
-                asset => asset.name.split(".").lastIndexOf("dmg") > 0
-              ).browser_download_url;
-              break;
-            case "LINUX_DEB":
-              option.href = parsed.assets.find(
-                asset => asset.name.split(".").lastIndexOf("deb") > 0
-              ).browser_download_url;
-              break;
-            case "LINUX_APPIMAGE":
-              option.href = parsed.assets.find(
-                asset => asset.name.split(".").lastIndexOf("AppImage") > 0
-              ).browser_download_url;
-              break;
-          }
-          option.name = parsed.name;
-          updated.push(option);
-        });
+        const mostRecentOptions = mapGithubResponseToOptions(
+          parsed,
+          downloadOptions
+        );
         this.setState({
-          downloadOptions: updated,
+          downloadOptions: mostRecentOptions,
           latestReleaseUrl: parsed.html_url
         });
       })
@@ -76,6 +53,23 @@ class App extends Component {
       </div>
     );
   }
+}
+
+function mapGithubResponseToOptions(data, downloadOptions) {
+  function generateSizeString(bytes, fileExt) {
+    return `${(bytes / 1000000).toFixed(2)} MB (Neon.${fileExt})`;
+  }
+
+  function findAndMapOption(option) {
+    const asset = data.assets.find(
+      asset => asset.name.split(".").lastIndexOf(option.fileExtension) > 0
+    );
+    option.href = asset.browser_download_url;
+    option.size = generateSizeString(asset.size, option.fileExtension);
+    return option;
+  }
+
+  return downloadOptions.map(findAndMapOption);
 }
 
 export default App;
