@@ -19,7 +19,7 @@ export const downloadOptions = [
       "https://github.com/CityOfZion/neon-wallet/releases/download/0.1.1/Neon-0.1.1.Mac.dmg",
     icon: appleIcon,
     size: "134.56 MB (Neon.dmg)",
-    fileExtension: "exe"
+    fileExtension: "dmg"
   },
   {
     id: "LINUX_DEB",
