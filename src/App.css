@@ -107,8 +107,8 @@ a {
 }
 
 #details #neon-logo {
-  max-width: 330px;
-  max-height: 90px;
+  min-width: 310px;
+  max-height: 50px;
   margin-bottom: 15px;
 }
 

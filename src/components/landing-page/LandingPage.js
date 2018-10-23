@@ -1,7 +1,7 @@
 import React from "react";
 import DownloadOptions from "./DownloadOptions";
 import { downloadOptions } from "../../config.js";
-import logo from "../../images/Neon_Logo_Dark.png";
+import logo from "../../images/Neon_Logo_Dark.svg";
 import screenshot from "../../images/screenshot.png";
 // import coz from "../../images/coz.svg";
 
