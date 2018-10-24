@@ -1,5 +1,5 @@
 html {
-  background-color: #12102e;
+  background-color: #171B24;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -98,7 +98,7 @@ a {
 }
 
 #details #neon-logo {
-  min-width: 310px;
+  max-width: 310px;
   max-height: 50px;
   margin-bottom: 15px;
 }
@@ -124,7 +124,7 @@ a {
   margin: 0;
   font-size: 25px;
   font-weight: 300;
-  color: #5C677F;
+  color: rgba(255, 255, 255, .5);
 }
 
 .landing-page-container #download-options-container {
@@ -238,8 +238,12 @@ footer #donation #modal-link {
   display: flex;
   align-items: center;
   height: 25px;
-  padding-left: 18px;
 }
+
+footer #donation i::after {
+  content: " ";
+  white-space: pre;
+} 
 
 footer #donation #modal-link> a {
   text-decoration: none;
@@ -247,7 +251,7 @@ footer #donation #modal-link> a {
 
 footer #donation #address {
   margin-top: 14px;
-  color: #5C677F;
+  color: rgba(255, 255, 255, .5);
   font-weight: 200;
   margin-top: 5px;
   margin-bottom: 10px;
