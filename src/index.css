@@ -3,10 +3,7 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-a {
-  outline: none;
-  color: #4597ff;
-}
+
 .fa-times-thin:before {
   content: "\00d7";
 }

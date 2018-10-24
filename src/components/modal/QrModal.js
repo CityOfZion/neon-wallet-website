@@ -11,7 +11,7 @@ const QrModal = ({ handleModalClose, modalId }) => (
     contentLabel="Modal"
     style={{
       overlay: {
-        backgroundColor: "rgba(18, 18, 44, 0.91)",
+        backgroundColor: "rgba(19, 19, 19, 0.49)",
         display: "flex",
         justifyContent: "center",
         alignItems: "center"
@@ -25,7 +25,7 @@ const QrModal = ({ handleModalClose, modalId }) => (
         top: "auto",
         bottom: "auto",
         border: "none",
-        borderBottom: "#4696ff solid 5px"
+        borderBottom: "#171B24 solid 5px"
       }
     }}
   >

@@ -36,7 +36,7 @@ a {
 }
 
 #modal #qr-label {
-  background-color: #4597ff;
+  background-color: #171B24;
   padding-bottom: 20px;
   padding-top: 35px;
   font-family: "Source Sans Pro", sans-serif;
@@ -57,7 +57,7 @@ a {
   height: 0;
   border-left: 125px solid transparent;
   border-right: 125px solid transparent;
-  border-top: 30px solid #4597ff;
+  border-top: 30px solid #171B24;
 }
 
 #modal img {
@@ -77,15 +77,6 @@ a {
   margin: auto;
 }
 
-.landing-page-container h1 {
-  font-family: "Orbitron", sans-serif;
-  display: flex;
-  margin: 0;
-  color: white;
-  font-size: 95px;
-  letter-spacing: 10px;
-  font-weight: 500;
-}
 
 .landing-page-container > #details-container {
   display: flex;
@@ -176,7 +167,7 @@ a {
   border-radius: 3px;
   color: white;
   background-color: #5C677F;
-  height: 40px;
+  height: 42px;
   width: 140px;
 }
 
@@ -201,7 +192,7 @@ a {
 
 #download-button:hover {
   transition: all 200ms ease-in;
-  background-color: #69E27E;
+  background-color: #394152;
 }
 
 #download-button img {
