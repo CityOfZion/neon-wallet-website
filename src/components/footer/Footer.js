@@ -31,8 +31,8 @@ const Donations = ({ handleModalClick }) =>
             event.preventDefault() || handleModalClick(e.modalId)
           }
         >
-          <i className="fa fa-external-link-square" aria-hidden="true" /> Launch
-          QR Code
+          <i className="fa fa-external-link-square" aria-hidden="true" />     
+          Launch QR Code
         </a>
       </div>
     </div>
