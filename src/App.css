@@ -93,12 +93,11 @@ a {
   padding-left: 40px;
   justify-content: center;
   flex-direction: column;
-  flex: 0.8;
 }
 
 #details #neon-logo {
-  max-width: 310px;
-  max-height: 50px;
+  max-width: 220px;
+  max-height: 70px;
   margin-bottom: 15px;
 }
 
