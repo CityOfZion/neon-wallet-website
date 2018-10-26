@@ -1,12 +1,12 @@
 html {
-  background-color: #171B24;
+  background-color: #171b24;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
   font-style: normal;
 }
 
 a {
-  color: #69E27E;
+  color: #69e27e;
 }
 
 .App nav {
@@ -30,34 +30,24 @@ a {
 
 #modal #close-icon {
   position: absolute;
-  color: white;
   cursor: pointer;
   left: 280px;
+  color: black;
+  opacity: 0.5;
+  margin-top: 5px;
 }
 
 #modal #qr-label {
-  background-color: #171B24;
-  padding-bottom: 20px;
-  padding-top: 35px;
+  padding-top: 40px;
   font-family: "Source Sans Pro", sans-serif;
-  color: white;
+  color: #171b24;
   font-weight: lighter;
   margin-top: -21px;
-  margin-left: -20px;
   display: flex;
-  margin-right: -20px;
   justify-content: center;
-  padding-left: 20px;
   align-items: center;
   font-size: 18px;
-}
-#modal #down-arrow {
-  width: 0;
-  margin: auto;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-top: 30px solid #171B24;
+  text-align: center;
 }
 
 #modal img {
@@ -77,7 +67,6 @@ a {
   margin: auto;
 }
 
-
 .landing-page-container > #details-container {
   display: flex;
   justify-content: center;
@@ -94,12 +83,11 @@ a {
   padding-left: 40px;
   justify-content: center;
   flex-direction: column;
-  flex: 0.8;
 }
 
 #details #neon-logo {
-  max-width: 310px;
-  max-height: 50px;
+  max-width: 220px;
+  max-height: 70px;
   margin-bottom: 15px;
 }
 
@@ -107,7 +95,7 @@ a {
   font-weight: 900;
   display: inline;
   margin: 0;
-  color:#ffffff;
+  color: #ffffff;
   letter-spacing: 1px;
   margin: 0;
   font-size: 25px;
@@ -124,7 +112,7 @@ a {
   margin: 0;
   font-size: 25px;
   font-weight: 300;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .landing-page-container #download-options-container {
@@ -166,7 +154,7 @@ a {
   align-items: center;
   border-radius: 3px;
   color: white;
-  background-color: #5C677F;
+  background-color: #394152;
   height: 42px;
   width: 140px;
 }
@@ -192,7 +180,7 @@ a {
 
 #download-button:hover {
   transition: all 200ms ease-in;
-  background-color: #394152;
+  background-color: #5c677f;
 }
 
 #download-button img {
@@ -209,8 +197,8 @@ footer {
   font-weight: 100;
   color: white;
   font-size: 14px;
-  background-color: #171B24;
-  border-top: solid #5C6A84;
+  background-color: #171b24;
+  border-top: solid #5c6a84;
 }
 
 footer #footer-content {
@@ -243,15 +231,15 @@ footer #donation #modal-link {
 footer #donation i::after {
   content: " ";
   white-space: pre;
-} 
+}
 
-footer #donation #modal-link> a {
+footer #donation #modal-link > a {
   text-decoration: none;
 }
 
 footer #donation #address {
   margin-top: 14px;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 200;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -260,7 +248,7 @@ footer #donation #address {
 footer #social {
   font-size: 17px;
   font-weight: 400;
-  color:#ffffff;
+  color: #ffffff;
 }
 
 footer #social #placeholder {
@@ -396,7 +384,7 @@ footer #social #description {
   }
   footer #modal-link {
     justify-content: center;
-    color: #69E27E;
+    color: #69e27e;
   }
   footer #placeholder {
     display: none;
@@ -521,7 +509,7 @@ footer #social #description {
     display: -ms-flexbox;
     background-position: calc(50%) 50%;
     display: flex;
-    flex: 0.65;
+    flex: 1;
   }
   .landing-page-container #download-options-container {
     max-width: 100%;
