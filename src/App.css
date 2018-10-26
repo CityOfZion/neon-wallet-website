@@ -30,34 +30,24 @@ a {
 
 #modal #close-icon {
   position: absolute;
-  color: white;
   cursor: pointer;
   left: 280px;
+  color: black;
+  opacity: 0.5;
+  margin-top: 5px;
 }
 
 #modal #qr-label {
-  background-color: #171b24;
-  padding-bottom: 20px;
-  padding-top: 35px;
+  padding-top: 40px;
   font-family: "Source Sans Pro", sans-serif;
-  color: white;
+  color: #171b24;
   font-weight: lighter;
   margin-top: -21px;
-  margin-left: -20px;
   display: flex;
-  margin-right: -20px;
   justify-content: center;
-  padding-left: 20px;
   align-items: center;
   font-size: 18px;
-}
-#modal #down-arrow {
-  width: 0;
-  margin: auto;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-top: 30px solid #171b24;
+  text-align: center;
 }
 
 #modal img {
