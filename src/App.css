@@ -1,8 +1,12 @@
 html {
-  background-color: #12102e;
+  background-color: #171b24;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: normal;
   font-style: normal;
+}
+
+a {
+  color: #69e27e;
 }
 
 .App nav {
@@ -26,34 +30,24 @@ html {
 
 #modal #close-icon {
   position: absolute;
-  color: white;
   cursor: pointer;
   left: 280px;
+  color: black;
+  opacity: 0.5;
+  margin-top: 5px;
 }
 
 #modal #qr-label {
-  background-color: #4597ff;
-  padding-bottom: 20px;
-  padding-top: 35px;
+  padding-top: 40px;
   font-family: "Source Sans Pro", sans-serif;
-  color: white;
+  color: #171b24;
   font-weight: lighter;
   margin-top: -21px;
-  margin-left: -20px;
   display: flex;
-  margin-right: -20px;
   justify-content: center;
-  padding-left: 20px;
   align-items: center;
   font-size: 18px;
-}
-#modal #down-arrow {
-  width: 0;
-  margin: auto;
-  height: 0;
-  border-left: 125px solid transparent;
-  border-right: 125px solid transparent;
-  border-top: 30px solid #4597ff;
+  text-align: center;
 }
 
 #modal img {
@@ -73,16 +67,6 @@ html {
   margin: auto;
 }
 
-.landing-page-container h1 {
-  font-family: "Orbitron", sans-serif;
-  display: flex;
-  margin: 0;
-  color: white;
-  font-size: 95px;
-  letter-spacing: 10px;
-  font-weight: 500;
-}
-
 .landing-page-container > #details-container {
   display: flex;
   justify-content: center;
@@ -99,29 +83,26 @@ html {
   padding-left: 40px;
   justify-content: center;
   flex-direction: column;
-  flex: 0.8;
 }
 
 #details #neon-logo {
-  width: 100%;
-  max-width: 210px;
+  max-width: 220px;
+  max-height: 70px;
   margin-bottom: 15px;
-  min-height: 40px;
-  max-height: 60px;
 }
 
-.landing-page-container #gold {
+.landing-page-container #white {
   font-weight: 900;
   display: inline;
   margin: 0;
-  color: #ffd84a;
+  color: #ffffff;
   letter-spacing: 1px;
   margin: 0;
   font-size: 25px;
   font-weight: 400;
 }
 
-#gold::after {
+#white::after {
   content: " ";
   white-space: pre;
 }
@@ -131,7 +112,7 @@ html {
   margin: 0;
   font-size: 25px;
   font-weight: 300;
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .landing-page-container #download-options-container {
@@ -171,13 +152,11 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid thin #4492fd;
   border-radius: 3px;
   color: white;
-  background-color: #313164;
-  height: 40px;
+  background-color: #394152;
+  height: 42px;
   width: 140px;
-  box-shadow: 0 4px 10px #181847;
 }
 
 #download-options-container #option {
@@ -189,7 +168,7 @@ html {
 }
 
 #download-options-container #display {
-  color: #ffd84a;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
 }
@@ -201,8 +180,7 @@ html {
 
 #download-button:hover {
   transition: all 200ms ease-in;
-  border: solid thin #313263;
-  background-color: #4492fd;
+  background-color: #5c677f;
 }
 
 #download-button img {
@@ -219,8 +197,8 @@ footer {
   font-weight: 100;
   color: white;
   font-size: 14px;
-  background-color: #12112d;
-  border-top: solid #4492fd;
+  background-color: #171b24;
+  border-top: solid #5c6a84;
 }
 
 footer #footer-content {
@@ -241,7 +219,7 @@ footer #footer-content {
 footer #donation {
   font-size: 17px;
   font-weight: 400;
-  color: #ffd84a;
+  color: #ffffff;
 }
 
 footer #donation #modal-link {
@@ -250,9 +228,18 @@ footer #donation #modal-link {
   height: 25px;
 }
 
+footer #donation i::after {
+  content: " ";
+  white-space: pre;
+}
+
+footer #donation #modal-link > a {
+  text-decoration: none;
+}
+
 footer #donation #address {
   margin-top: 14px;
-  color: white;
+  color: rgba(255, 255, 255, 0.5);
   font-weight: 200;
   margin-top: 5px;
   margin-bottom: 10px;
@@ -261,7 +248,7 @@ footer #donation #address {
 footer #social {
   font-size: 17px;
   font-weight: 400;
-  color: #ffd84a;
+  color: #ffffff;
 }
 
 footer #social #placeholder {
@@ -287,6 +274,7 @@ footer #social-links #link {
   display: flex;
   align-items: center;
   padding-right: 25px;
+  text-decoration: none;
 }
 
 footer #social-links img {
@@ -396,6 +384,7 @@ footer #social #description {
   }
   footer #modal-link {
     justify-content: center;
+    color: #69e27e;
   }
   footer #placeholder {
     display: none;
@@ -520,7 +509,7 @@ footer #social #description {
     display: -ms-flexbox;
     background-position: calc(50%) 50%;
     display: flex;
-    flex: 0.65;
+    flex: 1;
   }
   .landing-page-container #download-options-container {
     max-width: 100%;

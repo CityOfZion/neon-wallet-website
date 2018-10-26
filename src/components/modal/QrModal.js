@@ -11,7 +11,7 @@ const QrModal = ({ handleModalClose, modalId }) => (
     contentLabel="Modal"
     style={{
       overlay: {
-        backgroundColor: "rgba(18, 18, 44, 0.91)",
+        backgroundColor: "rgba(0, 0, 0, .5)",
         display: "flex",
         justifyContent: "center",
         alignItems: "center"
@@ -25,7 +25,7 @@ const QrModal = ({ handleModalClose, modalId }) => (
         top: "auto",
         bottom: "auto",
         border: "none",
-        borderBottom: "#4696ff solid 5px"
+        borderBottom: "5px solid #69e27e"
       }
     }}
   >
@@ -36,14 +36,12 @@ const QrModal = ({ handleModalClose, modalId }) => (
       {modalId === "cozQRModal" && (
         <div>
           <div id="qr-label">Donate to City of Zion</div>
-          <div id="down-arrow" />
           <img src={cozQr} />
         </div>
       )}
       {modalId === "neonWallet" && (
         <div>
           <div id="qr-label">Donate to NEON Wallet Creators</div>
-          <div id="down-arrow" />
           <img src={walletQr} />
         </div>
       )}
