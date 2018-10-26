@@ -509,7 +509,7 @@ footer #social #description {
     display: -ms-flexbox;
     background-position: calc(50%) 50%;
     display: flex;
-    flex: 0.65;
+    flex: 1;
   }
   .landing-page-container #download-options-container {
     max-width: 100%;
