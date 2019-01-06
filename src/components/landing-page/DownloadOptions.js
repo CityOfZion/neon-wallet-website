@@ -15,7 +15,7 @@ const DownloadOptions = ({ options }) => (
 const DownloadButton = ({ downloadLink, icon }) => (
   <a href={downloadLink}>
     <div id="download-button">
-      Download <img src={icon} />
+      Download <img alt="download-link" src={icon} />
     </div>
   </a>
 );
