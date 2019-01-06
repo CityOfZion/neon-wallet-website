@@ -42,4 +42,4 @@ export const downloadOptions = [
 ];
 
 export const latestRelease =
-  "https://github.com/CityOfZion/neon-wallet/releases/tag/0.1.1";
+  "https://github.com/CityOfZion/neon-wallet/releases/tag/2.0.0";
