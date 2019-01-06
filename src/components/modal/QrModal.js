@@ -36,13 +36,13 @@ const QrModal = ({ handleModalClose, modalId }) => (
       {modalId === "cozQRModal" && (
         <div>
           <div id="qr-label">Donate to City of Zion</div>
-          <img src={cozQr} />
+          <img alt="coz-qrs" rc={cozQr} />
         </div>
       )}
       {modalId === "neonWallet" && (
         <div>
           <div id="qr-label">Donate to NEON Wallet Creators</div>
-          <img src={walletQr} />
+          <img alt="neon-wallet-creators-qr" src={walletQr} />
         </div>
       )}
     </div>

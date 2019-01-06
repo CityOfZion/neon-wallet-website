@@ -31,7 +31,7 @@ const Donations = ({ handleModalClick }) =>
             event.preventDefault() || handleModalClick(e.modalId)
           }
         >
-          <i className="fa fa-external-link-square" aria-hidden="true" />     
+          <i className="fa fa-external-link-square" aria-hidden="true" />
           Launch QR Code
         </a>
       </div>
@@ -50,20 +50,20 @@ const Footer = ({ handleModalClick }) => (
             id="link"
             target="blank"
           >
-            Github <img src={githubIcon} />
+            Github <img alt="github-social-icon" src={githubIcon} />
           </a>
           <a
             href="https://www.facebook.com/CityOfZionOfficial"
             id="link"
             target="blank"
           >
-            Facebook <img src={fbIcon} />
+            Facebook <img alt="facebook-social-icon" src={fbIcon} />
           </a>
           <a href="https://discord.gg/R8v48YA" id="link" target="blank">
-            Discord <img src={discordIcon} />
+            Discord <img alt="discord-social-icon" src={discordIcon} />
           </a>
           <a href="https://www.reddit.com/r/NEO/" id="link" target="blank">
-            Reddit <img src={redditIcon} />
+            Reddit <img alt="reddit-social-icon" src={redditIcon} />
           </a>
         </div>
       </div>

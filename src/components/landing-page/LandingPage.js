@@ -1,15 +1,12 @@
 import React from "react";
 import DownloadOptions from "./DownloadOptions";
-import { downloadOptions } from "../../config.js";
 import logo from "../../images/Neon_Logo_Dark.svg";
-import screenshot from "../../images/screenshot.png";
-// import coz from "../../images/coz.svg";
 
 const LandingPage = props => (
   <div className="landing-page-container">
     <div id="details-container">
       <div id="details">
-        <img id="neon-logo" src={logo} alt="neon-logo"/>
+        <img id="neon-logo" src={logo} alt="neon-logo" />
         <div id="description">
           An open source <span id="white"> cross-platform light wallet</span>
           for the NEO blockchain available on Windows, Mac OS, and Linux.
