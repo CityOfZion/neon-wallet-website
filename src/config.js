@@ -1,8 +1,24 @@
 import linuxIcon from "./images/linux-logo.png";
 import appleIcon from "./images/apple-logo.png";
 import windowsIcon from "./images/windows-logo.png";
+import androidIcon from "./images/android-logo.png";
+
 
 export const downloadOptions = [
+  {
+    id: "IOS",
+    display: "iOS",
+    href:
+      "https://apps.apple.com/my/app/neon-wallet-mobile/id1530111452",
+    icon: appleIcon,
+  },
+  {
+    id: "Android",
+    display: "Android",
+    href:
+      "https://play.google.com/store/apps/details?id=io.cityofzion.neon&hl=en_US&gl=US",
+    icon: androidIcon,
+  },
   {
     id: "WINDOWS",
     display: "Windows",
@@ -39,6 +55,7 @@ export const downloadOptions = [
     size: "134.56 MB (Neon.AppImage)",
     fileExtension: "AppImage"
   }
+  
 ];
 
 export const latestRelease =

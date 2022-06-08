@@ -69,7 +69,9 @@ function mapGithubResponseToOptions(data, downloadOptions) {
     return option;
   }
 
-  return downloadOptions.map(findAndMapOption);
+  const desktopReleases = downloadOptions.map(findAndMapOption);
+
+  return desktopReleases
 }
 
 export default App;
