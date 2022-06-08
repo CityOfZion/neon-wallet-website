@@ -1,13 +1,20 @@
 {
-  "main.css": "static/css/main.46224a64.css",
-  "main.css.map": "static/css/main.46224a64.css.map",
-  "main.js": "static/js/main.fb3076d6.js",
-  "main.js.map": "static/js/main.fb3076d6.js.map",
-  "static/media/Background.png": "static/media/Background.f4fd25ed.png",
-  "static/media/Neon_Logo_Dark.svg": "static/media/Neon_Logo_Dark.ea1e5011.svg",
-  "static/media/discord.png": "static/media/discord.7b566528.png",
-  "static/media/github.png": "static/media/github.4be03093.png",
-  "static/media/linux-logo.png": "static/media/linux-logo.993d981b.png",
-  "static/media/reddit.png": "static/media/reddit.259c6169.png",
-  "static/media/screenshot.png": "static/media/screenshot.5d74078d.png"
+  "files": {
+    "main.css": "/static/css/main.9cd1555b.css",
+    "main.js": "/static/js/main.171add99.js",
+    "static/media/screenshot.png": "/static/media/screenshot.a73776c24f079d97e987.png",
+    "static/media/Background.png": "/static/media/Background.feb8dda75e85ca26b1b3.png",
+    "static/media/discord.png": "/static/media/discord.fba977b81c34618c98a8.png",
+    "static/media/linux-logo.png": "/static/media/linux-logo.142694e21e49d076c3e1.png",
+    "static/media/reddit.png": "/static/media/reddit.c452ccba0ff0280dd528.png",
+    "static/media/github.png": "/static/media/github.a924f66da70d887259ac.png",
+    "static/media/Neon_Logo_Dark.svg": "/static/media/Neon_Logo_Dark.f9060f26be2211ad20e52e5b5174e231.svg",
+    "index.html": "/index.html",
+    "main.9cd1555b.css.map": "/static/css/main.9cd1555b.css.map",
+    "main.171add99.js.map": "/static/js/main.171add99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cd1555b.css",
+    "static/js/main.171add99.js"
+  ]
 }
