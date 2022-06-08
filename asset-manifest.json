@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9cd1555b.css",
-    "main.js": "/static/js/main.171add99.js",
+    "main.js": "/static/js/main.e13172a0.js",
     "static/media/screenshot.png": "/static/media/screenshot.a73776c24f079d97e987.png",
     "static/media/Background.png": "/static/media/Background.feb8dda75e85ca26b1b3.png",
     "static/media/discord.png": "/static/media/discord.fba977b81c34618c98a8.png",
@@ -11,10 +11,10 @@
     "static/media/Neon_Logo_Dark.svg": "/static/media/Neon_Logo_Dark.f9060f26be2211ad20e52e5b5174e231.svg",
     "index.html": "/index.html",
     "main.9cd1555b.css.map": "/static/css/main.9cd1555b.css.map",
-    "main.171add99.js.map": "/static/js/main.171add99.js.map"
+    "main.e13172a0.js.map": "/static/js/main.e13172a0.js.map"
   },
   "entrypoints": [
     "static/css/main.9cd1555b.css",
-    "static/js/main.171add99.js"
+    "static/js/main.e13172a0.js"
   ]
 }
