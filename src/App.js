@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import rp from "request-promise";
+import axios from "axios";
 import LandingPage from "./components/landing-page/LandingPage";
 import Footer from "./components/footer/Footer";
 import QrModal from "./components/modal/QrModal";
@@ -16,7 +16,7 @@ class App extends Component {
 
   componentDidMount() {
     // NOTE: If this request fails the default downloadOptions from config.js will be leveraged.
-    rp("https://api.github.com/repos/CityOfZion/neon-wallet/releases/latest")
+    axios.get("https://api.github.com/repos/CityOfZion/neon-wallet/releases/latest")
       .then(response => {
         const parsed = JSON.parse(response);
         const mostRecentOptions = mapGithubResponseToOptions(
