@@ -39,7 +39,7 @@ const Donations = ({ handleModalClick }) =>
   ));
 
 const Footer = ({ handleModalClick }) => (
-  <footer>
+  <footer className="flex h-full pt-3">
     <div id="footer-content">
       <Donations handleModalClick={handleModalClick} />
       <div id="social">
