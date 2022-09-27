@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cd1555b.css",
-    "main.js": "/static/js/main.43a11af3.js",
-    "static/media/screenshot.png": "/static/media/screenshot.a73776c24f079d97e987.png",
+    "main.css": "/static/css/main.b89b538e.css",
+    "main.js": "/static/js/main.de0db027.js",
     "static/media/Background.png": "/static/media/Background.feb8dda75e85ca26b1b3.png",
+    "static/media/screenshot.png": "/static/media/screenshot.ee3c7de8ca058951cb14.png",
     "static/media/discord.png": "/static/media/discord.fba977b81c34618c98a8.png",
     "static/media/linux-logo.png": "/static/media/linux-logo.142694e21e49d076c3e1.png",
     "static/media/reddit.png": "/static/media/reddit.c452ccba0ff0280dd528.png",
     "static/media/github.png": "/static/media/github.a924f66da70d887259ac.png",
-    "static/media/Neon_Logo_Dark.svg": "/static/media/Neon_Logo_Dark.f9060f26be2211ad20e52e5b5174e231.svg",
+    "static/media/Neon_Logo_Dark.svg": "/static/media/Neon_Logo_Dark.403401bb9920103556d6d02c6738d20f.svg",
     "index.html": "/index.html",
-    "main.9cd1555b.css.map": "/static/css/main.9cd1555b.css.map",
-    "main.43a11af3.js.map": "/static/js/main.43a11af3.js.map"
+    "main.b89b538e.css.map": "/static/css/main.b89b538e.css.map",
+    "main.de0db027.js.map": "/static/js/main.de0db027.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cd1555b.css",
-    "static/js/main.43a11af3.js"
+    "static/css/main.b89b538e.css",
+    "static/js/main.de0db027.js"
   ]
 }
