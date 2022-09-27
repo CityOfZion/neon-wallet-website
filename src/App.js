@@ -61,17 +61,18 @@ function mapGithubResponseToOptions(data, downloadOptions) {
   }
 
   function findAndMapOption(option) {
-    const asset = data.assets.find(
-      asset => asset.name.split(".").lastIndexOf(option.fileExtension) > 0
-    );
-    option.href = asset.browser_download_url;
-    option.size = generateSizeString(asset.size, option.fileExtension);
+    if (option.fileExtension) {
+      const asset = data.assets.find(
+          asset => asset.name.split(".").lastIndexOf(option.fileExtension) > 0
+      );
+      option.href = asset.browser_download_url;
+      option.size = generateSizeString(asset.size, option.fileExtension);
+      console.log(option.size)
+    }
     return option;
   }
 
-  const desktopReleases = downloadOptions.map(findAndMapOption);
-
-  return desktopReleases
+  return downloadOptions.map(findAndMapOption);
 }
 
 export default App;

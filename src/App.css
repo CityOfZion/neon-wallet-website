@@ -85,12 +85,6 @@ a {
   flex-direction: column;
 }
 
-#details #neon-logo {
-  max-width: 220px;
-  max-height: 70px;
-  margin-bottom: 15px;
-}
-
 .landing-page-container #white {
   font-weight: 900;
   display: inline;
@@ -175,7 +169,7 @@ a {
 #download-options-container #size {
   color: #e6ecf2;
   margin-bottom: 15px;
-  font-size: 12px;
+  font-size: 11px;
 }
 
 #download-button:hover {
@@ -214,6 +208,7 @@ footer #footer-content {
   justify-content: space-around;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 footer #donation {
@@ -243,6 +238,7 @@ footer #donation #address {
   font-weight: 200;
   margin-top: 5px;
   margin-bottom: 10px;
+  font-size: 13px;
 }
 
 footer #social {
@@ -403,6 +399,9 @@ footer #social #description {
 }
 
 @media (max-width: 768px) {
+  #details #neon-logo {
+    max-width: 200px;
+  }
   .landing-page-container {
     height: auto;
   }

@@ -6,7 +6,7 @@ const LandingPage = props => (
   <div className="landing-page-container">
     <div id="details-container">
       <div id="details">
-        <img id="neon-logo" src={logo} alt="neon-logo" />
+        <img id="neon-logo" src={logo} alt="neon-logo" style={{width: '402px', height: '76px', marginBottom: '16px'}} />
         <div id="description">
           An open source <span id="white"> cross-platform light wallet</span>
           for the NEO blockchain available on Windows, Mac OS, and Linux.
